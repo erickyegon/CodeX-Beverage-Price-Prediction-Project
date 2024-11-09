@@ -5,7 +5,7 @@ import numpy as np
 from pathlib import Path
 
 def load_model():
-    model_path = r"C:\Users\User\Documents\RFM model\codebasics\internships\Data Science\Codex Project\best_model.pkl"
+    model_path = r"C:\Users\User\Documents\RFM model\codebasics\internships\Data Science\Codex Project\models\best_model.pkl"
     with open(model_path, 'rb') as file:
         model = pickle.load(file)
     return model
