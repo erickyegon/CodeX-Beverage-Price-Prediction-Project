@@ -24,7 +24,7 @@ The project utilizes MLflow for experiment tracking and model management. Multip
 All experiments and model metrics are tracked in MLflow for reproducibility and comparison.
 
 ### Model Deployment
-- **Live Application**: [CodeX Price Predictor App](https://codex-price-prediction.streamlit.app/) 
+- **Live Application**: [CodeX Price Predictor App](https://codex-beverage-price-prediction-project-unq9a4tkr7sm5zahq2xuvx.streamlit.app/)
 - **Platform**: Streamlit Cloud
 - **Real-time Predictions**: Instant price category recommendations
 - **User Interface**: Interactive web-based interface
@@ -109,7 +109,7 @@ The analysis shows that accurate price prediction requires considering multiple 
 Dr. Erick K. Yegon
 
 ## Links
-- [Live Deployment]([https://codex-beverage-price-prediction-project-unq9a4tkr7sm5zahq2xuvx.streamlit.app/])
+- [Live Deployment](https://codex-beverage-price-prediction-project-unq9a4tkr7sm5zahq2xuvx.streamlit.app/)
 - [GitHub Repository](https://github.com/erickyegon/codebasics_internship)
 - [MLflow Dashboard](https://dagshub.com/erickyegon/codebasics_internship/experiments)
 
