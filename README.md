@@ -109,7 +109,7 @@ The analysis shows that accurate price prediction requires considering multiple 
 Dr. Erick K. Yegon
 
 ## Links
-- [Live Deployment](https://codex-price-prediction.streamlit.app/)
+- [Live Deployment]([https://codex-beverage-price-prediction-project-unq9a4tkr7sm5zahq2xuvx.streamlit.app/])
 - [GitHub Repository](https://github.com/erickyegon/codebasics_internship)
 - [MLflow Dashboard](https://dagshub.com/erickyegon/codebasics_internship/experiments)
 
