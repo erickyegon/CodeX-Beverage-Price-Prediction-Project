@@ -5,10 +5,16 @@ import numpy as np
 from pathlib import Path
 
 def load_model():
-    model_path = r"C:\Users\User\Documents\RFM model\codebasics\internships\Data Science\Codex Project\models\best_model.pkl"
-    with open(model_path, 'rb') as file:
-        model = pickle.load(file)
-    return model
+    """
+    Load the trained model from the models directory
+    """
+    try:
+        model_path = "models/best_model.pkl"  
+        with open(model_path, 'rb') as file:
+            model = pickle.load(file)
+        return model
+    except Exception as e:
+        raise Exception(f"Error loading model: {str(e)}")
 
 def get_price_range(category):
     """
